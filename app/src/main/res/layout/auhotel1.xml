@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#DFF0F5"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Gallery
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gallery1"
+            android:spacing="5dp"
+            />
+
+        <ImageView
+            android:id="@+id/ivPoster1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="길리건스 백패커 호텔"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="5성급 호텔"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="⭐⭐⭐⭐☆ 4.1\n"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="야외 수영장, 2 개의 바, 라이브 DJ가있는 나이트 클럽이있는 역동적 인 호스텔입니다.\n_____________________________________________"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="가격: $24,098"
+            android:textColor="#ff0000"
+            android:textSize="25sp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:text="전화번호☎: +61 7 4041 6566\n주소: 57/89 Grafton St, Cairns City QLD 4870 오스트레일리아"
+            />
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:scaleType="fitXY"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:src="@drawable/auhomap"
+
+            />
+
+    </LinearLayout>
+
+</ScrollView>
+

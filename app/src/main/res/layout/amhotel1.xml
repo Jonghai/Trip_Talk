@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#DFF0F5"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Gallery
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gallery2"
+            android:spacing="5dp"
+            />
+
+        <ImageView
+            android:id="@+id/ivPoster2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="엑스칼리버호텔"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="3성급 호텔"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="⭐⭐⭐⭐☆ 4.1\n"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="스파, 북적이는 카지노와 디너 극장, 라이브 공연, 4개의 수영장이 있는 활기찬 숙박시설입니다.\n_____________________________________________"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="가격: $43,490"
+            android:textColor="#ff0000"
+            android:textSize="25sp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:text="전화번호☎: +1 877-750-5464\n주소: 3850 S Las Vegas Blvd, Las Vegas, NV 89109 미국"
+            />
+        <ImageButton
+            android:id="@+id/amhomap"
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:scaleType="fitXY"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:src="@drawable/amhomap"
+
+            />
+
+    </LinearLayout>
+
+</ScrollView>
+

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:src="@drawable/wleh" />
+
+        <ImageButton
+            android:id="@+id/Newyorkbtn"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="210dp"
+            android:layout_marginLeft="230dp"
+            android:src="@drawable/america"
+            android:padding="0sp"
+            android:scaleType="fitXY"
+            />
+        <ImageButton
+            android:id="@+id/Brasilbtn"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="410dp"
+            android:layout_marginTop="420dp"
+            android:src="@drawable/brazil"
+            android:padding="0sp"
+            android:scaleType="fitXY"
+            />
+        <ImageButton
+            android:id="@+id/Spainbtn"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="210dp"
+            android:layout_marginLeft="570dp"
+            android:src="@drawable/spain"
+            android:padding="0sp"
+            android:scaleType="centerCrop"
+            />
+        <ImageButton
+            android:id="@+id/Vietnambtn"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="320dp"
+            android:layout_marginLeft="930dp"
+            android:src="@drawable/vietnam"
+            android:padding="0sp"
+            android:scaleType="fitXY"
+            />
+        <ImageButton
+            android:id="@+id/Australiabtn"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="470dp"
+            android:layout_marginLeft="1025dp"
+            android:src="@drawable/australia"
+            android:padding="0sp"
+            android:scaleType="fitXY"
+            />
+
+        <ImageButton
+            android:id="@+id/talk"
+            android:src="@drawable/talk"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            android:scaleType="fitXY"
+            android:background="#00ffffff"
+            />
+
+    </RelativeLayout>
+
+</HorizontalScrollView>

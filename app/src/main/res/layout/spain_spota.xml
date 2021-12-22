@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DFF0F5"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="사그라다 파밀리아 성당"
+            android:textColor="#000000"
+            android:textSize="40sp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/spspot1" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+
+                android:text="사그라다 파밀리아 성당은 스페인 바르셀로나에 짓고 있는 로마 가톨릭 성당이다. 또한 '사그라다'는 스페인어로 신성한 또는 성스러운이라는 뜻을 가졌으며, 파밀리아는 가족을 뜻하기 때문에 성가족성당이라고도 불린다."
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
+                android:text="주소: Carrer de Mallorca, 401, 08013 Barcelona, 스페인"
+                android:textSize="23sp" />
+            <Button
+                android:id="@+id/spbtn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#ADD8E6"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"
+                android:text="영업시간 >"
+                />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="토요일	오전 9:00~오후 3:00\n일요일	오전 9:00~오후 3:00 \n월요일	휴무\n화요일	휴무\n수요일	휴무
+                \n목요일	휴무
+                \n금요일	휴무"
+                android:textSize="25sp"
+                android:visibility="gone"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textColor="#000000"
+                android:text="☎:  +34 932 08 04 14"
+                android:textSize="25sp" />
+
+            <ImageButton
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                android:scaleType="fitXY"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/spspotmap"
+                />
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

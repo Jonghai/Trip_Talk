@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DFF0F5"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="자유의 여신상"
+            android:textColor="#000000"
+            android:textSize="50sp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/newyork" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+
+                android:text="자유의 여신상은 미국 뉴욕 리버티섬에 있는 건축물로, 뉴욕을 상징하는 대표적인 건축물이며, 세계를 밝히는 자유라는 이름으로, 프랑스가 19세기 말에 미국의 독립 100주년을 축하하기 위해 제작한 동상이다."
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
+                android:text="주소: 미국 10004 New York"
+                android:textSize="23sp" />
+            <Button
+                android:id="@+id/ambtn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#ADD8E6"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"
+                android:text="영업시간 >"
+                />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="토요일	오전 8:30~오후 4:00\n일요일	오전 8:30~오후 4:00 \n월요일	오전 8:30~오후 4:00\n화요일	오전 8:30~오후 4:00\n수요일	오전 8:30~오후 4:00
+                목요일	오전 8:30~오후 4:00
+                금요일	오전 8:30~오후 4:00"
+                android:textSize="25sp"
+                android:visibility="gone"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textColor="#000000"
+                android:text="☎: +1 212-363-3200"
+                android:textSize="25sp" />
+
+            <ImageButton
+                android:id="@+id/amspmap"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                android:scaleType="fitXY"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/amspot1"
+                />
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

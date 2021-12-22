@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#DFF0F5"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Gallery
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gallery3"
+            android:spacing="5dp"
+            />
+
+        <ImageView
+            android:id="@+id/ivPoster3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="하드록 호텔 이비자"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="5성급 호텔"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="⭐⭐⭐⭐☆ 4.6\n"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="세련된 객실을 갖춘 감각적인 호텔로 해변 레스토랑과 활기 넘치는 바, 실내 및 야외 수영장이 있습니다.\n_____________________________________________"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="가격: $488,021"
+            android:textColor="#ff0000"
+            android:textSize="25sp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:text="전화번호☎: +34 971 92 76 91\n주소: Platja d'en Bossa, s/n, 07817 Sant Jordi de ses Salines, Balearic Islands, 스페인"
+            />
+        <ImageButton
+            android:id="@+id/sphomap"
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:scaleType="fitXY"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:src="@drawable/sphomap"
+
+            />
+
+    </LinearLayout>
+
+</ScrollView>
+

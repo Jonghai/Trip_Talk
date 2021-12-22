@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.p_1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity android:name=".Post2Activity"></activity>
+        <activity android:name=".MainPostActivity" />
+        <activity android:name=".PostActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Intro">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" />
+        <activity android:name=".america.Americainfo" />
+        <activity android:name=".australia.Australiainfo" />
+        <activity android:name=".spain.Spaininfo" />
+        <activity android:name=".america.AmList" />
+        <activity android:name=".america.Americafood" />
+        <activity android:name=".spain.Spainfood" />
+        <activity android:name=".australia.Australiafood" />
+        <activity android:name=".america.AmericaSpota" />
+        <activity android:name=".america.AmStList" />
+        <activity android:name=".australia.AuStList" />
+        <activity android:name=".australia.AuList" />
+        <activity android:name=".australia.AustraliaSpota" />
+        <activity android:name=".spain.SpList" />
+        <activity android:name=".spain.SpainSpota" />
+        <activity android:name=".spain.SpStList" />
+        <activity android:name=".america.AmHotel1" />
+        <activity android:name=".australia.Auhotel1"/>
+        <activity android:name=".spain.SpHotel1"/>
+
+    </application>
+
+</manifest>
